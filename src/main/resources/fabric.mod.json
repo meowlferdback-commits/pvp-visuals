@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "pvpvisuals",
+  "version": "1.0.0",
+  "name": "PvP Visuals",
+  "description": "Косметические визуальные эффекты для PvP: target ESP (круг/ромб/призрак) и партиклы при хитах.",
+  "authors": ["you"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/pvpvisuals/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.pvpvisuals.client.PvpVisualsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
